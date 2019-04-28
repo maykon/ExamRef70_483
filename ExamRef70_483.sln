@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamRef70_483.Chapter1.Rand
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamRef70_483.Chapter1.WebViewer", "ExamRef70_483.Chapter1.WebViewer\ExamRef70_483.Chapter1.WebViewer.csproj", "{6847D427-E49F-49A4-AFD9-54135B97E5DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{4719D975-4AE7-4119-BD4F-5D158631E81D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{6847D427-E49F-49A4-AFD9-54135B97E5DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6847D427-E49F-49A4-AFD9-54135B97E5DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6847D427-E49F-49A4-AFD9-54135B97E5DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4719D975-4AE7-4119-BD4F-5D158631E81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4719D975-4AE7-4119-BD4F-5D158631E81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4719D975-4AE7-4119-BD4F-5D158631E81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4719D975-4AE7-4119-BD4F-5D158631E81D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

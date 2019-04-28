@@ -340,11 +340,68 @@ namespace ExamRef70_483.Chapter1.Tests
 
         [TestCategory("Skill 1.2")]
         [TestCategory("Multithreading")]
-        [TestMethod]
+        [TestMethod, Ignore]
         public void TestDeadLockTask()
         {
             Assert.IsTrue(DeadLockTask.Run());
         }
+
+        [TestCategory("Skill 1.2")]
+        [TestCategory("Multithreading")]
+        [TestMethod]
+        public void TestInterlockedSum()
+        {
+            Assert.IsTrue(InterlockedSum.Run());
+        }
+
+        [TestCategory("Skill 1.2")]
+        [TestCategory("Multithreading")]
+        [TestMethod]
+        public void TestGoodSearchArray()
+        {
+            Assert.IsTrue(GoodSearchArray.Run());
+        }
+
+        [TestCategory("Skill 1.2")]
+        [TestCategory("Multithreading")]
+        [TestMethod]
+        public void TestVolatileVariables()
+        {
+            Assert.IsTrue(VolatileVariables.Run());
+        }
+
+        [TestCategory("Skill 1.2")]
+        [TestCategory("Multithreading")]
+        [TestMethod]
+        public void TestCancelTask()
+        {
+            Assert.IsTrue(CancelTask.Run());
+        }
+
+        [TestCategory("Skill 1.2")]
+        [TestCategory("Multithreading")]
+        [TestMethod]
+        public void TestCancelTaskException()
+        {
+            Assert.IsTrue(CancelTaskException.Run());
+        }
+
+        [TestCategory("Skill 1.2")]
+        [TestCategory("Multithreading")]
+        [TestMethod]
+        public void TestCounterUnsafe()
+        {
+            Assert.IsTrue(CounterUnsafe.Run());
+        }
+
+        [TestCategory("Skill 1.2")]
+        [TestCategory("Multithreading")]
+        [TestMethod]
+        public void TestCustomerSafeParams()
+        {
+            Assert.IsTrue(CustomerSafeParams.Run());
+        }
+
 
         #endregion
     }

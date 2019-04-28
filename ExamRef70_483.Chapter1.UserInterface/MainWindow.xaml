@@ -1,0 +1,16 @@
+﻿<Window x:Class="ExamRef70_483.Chapter1.UserInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamRef70_483.Chapter1.UserInterface"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="309.375" Width="639.522">
+    <Grid>
+        <Label x:Name="LabelRandom" Content="Random Averages" Margin="0,20,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="48"/>
+        <Label x:Name="LabelNumberOfValues" Content="Number of values:" Margin="-200,100,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="12"/>
+        <TextBox x:Name="NumberOfValuesTextBox" Margin="150,105,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="12" Width="240" Height="20" />
+        <Button Name="StartButton" Margin="0,135,0,0" Content="Start" Height="20" HorizontalAlignment="Center" VerticalAlignment="Top" Width="50" Click="StartButton_Click" />
+        <TextBlock Name="ResultTextBlock" Margin="0,160,0,0" VerticalAlignment="Top" HorizontalAlignment="Center" Text="Result: 0" />
+    </Grid>
+</Window>
